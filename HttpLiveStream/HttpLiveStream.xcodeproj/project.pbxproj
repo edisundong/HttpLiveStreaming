@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1822D78213766E070017F694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822D78113766E070017F694 /* UIKit.framework */; };
+		1822D78413766E070017F694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822D78313766E070017F694 /* Foundation.framework */; };
+		1822D78613766E070017F694 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1822D78513766E070017F694 /* CoreGraphics.framework */; };
+		1822D78C13766E070017F694 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1822D78A13766E070017F694 /* InfoPlist.strings */; };
+		1822D78F13766E070017F694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822D78E13766E070017F694 /* main.m */; };
+		1822D79213766E070017F694 /* HttpLiveStreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822D79113766E070017F694 /* HttpLiveStreamAppDelegate.m */; };
+		1822D79513766E070017F694 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1822D79313766E070017F694 /* MainWindow.xib */; };
+		1822D79813766E070017F694 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822D79713766E070017F694 /* RootViewController.m */; };
+		1822D79B13766E070017F694 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1822D79913766E070017F694 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1822D77D13766E070017F694 /* HttpLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822D78113766E070017F694 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1822D78313766E070017F694 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1822D78513766E070017F694 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1822D78913766E070017F694 /* HttpLiveStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpLiveStream-Info.plist"; sourceTree = "<group>"; };
+		1822D78B13766E070017F694 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1822D78D13766E070017F694 /* HttpLiveStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpLiveStream-Prefix.pch"; sourceTree = "<group>"; };
+		1822D78E13766E070017F694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1822D79013766E070017F694 /* HttpLiveStreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpLiveStreamAppDelegate.h; sourceTree = "<group>"; };
+		1822D79113766E070017F694 /* HttpLiveStreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpLiveStreamAppDelegate.m; sourceTree = "<group>"; };
+		1822D79413766E070017F694 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1822D79613766E070017F694 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1822D79713766E070017F694 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1822D79A13766E070017F694 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1822D77A13766E070017F694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822D78213766E070017F694 /* UIKit.framework in Frameworks */,
+				1822D78413766E070017F694 /* Foundation.framework in Frameworks */,
+				1822D78613766E070017F694 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1822D77213766E070017F694 = {
+			isa = PBXGroup;
+			children = (
+				1822D78713766E070017F694 /* HttpLiveStream */,
+				1822D78013766E070017F694 /* Frameworks */,
+				1822D77E13766E070017F694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1822D77E13766E070017F694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1822D77D13766E070017F694 /* HttpLiveStream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1822D78013766E070017F694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1822D78113766E070017F694 /* UIKit.framework */,
+				1822D78313766E070017F694 /* Foundation.framework */,
+				1822D78513766E070017F694 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1822D78713766E070017F694 /* HttpLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				1822D79013766E070017F694 /* HttpLiveStreamAppDelegate.h */,
+				1822D79113766E070017F694 /* HttpLiveStreamAppDelegate.m */,
+				1822D79313766E070017F694 /* MainWindow.xib */,
+				1822D79613766E070017F694 /* RootViewController.h */,
+				1822D79713766E070017F694 /* RootViewController.m */,
+				1822D79913766E070017F694 /* RootViewController.xib */,
+				1822D78813766E070017F694 /* Supporting Files */,
+			);
+			path = HttpLiveStream;
+			sourceTree = "<group>";
+		};
+		1822D78813766E070017F694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1822D78913766E070017F694 /* HttpLiveStream-Info.plist */,
+				1822D78A13766E070017F694 /* InfoPlist.strings */,
+				1822D78D13766E070017F694 /* HttpLiveStream-Prefix.pch */,
+				1822D78E13766E070017F694 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1822D77C13766E070017F694 /* HttpLiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1822D79E13766E070017F694 /* Build configuration list for PBXNativeTarget "HttpLiveStream" */;
+			buildPhases = (
+				1822D77913766E070017F694 /* Sources */,
+				1822D77A13766E070017F694 /* Frameworks */,
+				1822D77B13766E070017F694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HttpLiveStream;
+			productName = HttpLiveStream;
+			productReference = 1822D77D13766E070017F694 /* HttpLiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1822D77413766E070017F694 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1822D77713766E070017F694 /* Build configuration list for PBXProject "HttpLiveStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1822D77213766E070017F694;
+			productRefGroup = 1822D77E13766E070017F694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1822D77C13766E070017F694 /* HttpLiveStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1822D77B13766E070017F694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822D78C13766E070017F694 /* InfoPlist.strings in Resources */,
+				1822D79513766E070017F694 /* MainWindow.xib in Resources */,
+				1822D79B13766E070017F694 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1822D77913766E070017F694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1822D78F13766E070017F694 /* main.m in Sources */,
+				1822D79213766E070017F694 /* HttpLiveStreamAppDelegate.m in Sources */,
+				1822D79813766E070017F694 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1822D78A13766E070017F694 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1822D78B13766E070017F694 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1822D79313766E070017F694 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1822D79413766E070017F694 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1822D79913766E070017F694 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1822D79A13766E070017F694 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1822D79C13766E070017F694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1822D79D13766E070017F694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1822D79F13766E070017F694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpLiveStream/HttpLiveStream-Prefix.pch";
+				INFOPLIST_FILE = "HttpLiveStream/HttpLiveStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1822D7A013766E070017F694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpLiveStream/HttpLiveStream-Prefix.pch";
+				INFOPLIST_FILE = "HttpLiveStream/HttpLiveStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1822D77713766E070017F694 /* Build configuration list for PBXProject "HttpLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822D79C13766E070017F694 /* Debug */,
+				1822D79D13766E070017F694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1822D79E13766E070017F694 /* Build configuration list for PBXNativeTarget "HttpLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1822D79F13766E070017F694 /* Debug */,
+				1822D7A013766E070017F694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1822D77413766E070017F694 /* Project object */;
+}
