@@ -15,8 +15,12 @@
 @synthesize password;
 @synthesize confirmPassword;
 @synthesize eamil;
-@synthesize UserRegister;
+@synthesize userRegister;
 @synthesize cancelRegister;
+
+@synthesize webData;
+@synthesize soapResults;
+@synthesize xmlParser;
 
 - (IBAction)textFieldDoneEditing:(id)sender{
     [sender resignFirstResponder];
@@ -30,10 +34,25 @@
 }
 
 - (IBAction)userRegisterPressed{
-    if (username.text.length ==0 && password.text.length ==0 && confirmPassword.text.length == 0 && email.text.length ==0) {
-        //username validation 
-       // UIAlertView
+    NSString *msg = nil;
+
+    if (username.text.length == 0) 
+         msg = [[NSString alloc]initWithFormat:@"Please input username!"];
+    else if (password.text.length ==0)
+        msg = [[NSString alloc]initWithFormat:@"Please input password!"];
+    else if (confirmPassword.text.length == 0 && confirmPassword.text != password.text )
+        msg = [[NSString alloc]initWithFormat:@"Please input correct confirmPassword!"];
+     else if (email.text.length ==0)
+        msg = [[NSString alloc]initWithFormat:@"Please input E-mail address!"];
+    else
+    {
+        
     }
+    
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Prompt" message:msg delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+    [msg release];
     
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -47,6 +66,13 @@
 
 - (void)dealloc
 {
+    [username release];
+    [password release];
+    [confirmPassword release];
+    [email release];
+    [userRegister release];
+    [cancelRegister release];
+    
     [super dealloc];
 }
 
@@ -68,6 +94,13 @@
 
 - (void)viewDidUnload
 {
+    self.username = nil;
+    self.password = nil;
+    self.confirmPassword = nil;
+    self.eamil = nil;
+    self.userRegister = nil;
+    self.cancelRegister = nil;
+    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

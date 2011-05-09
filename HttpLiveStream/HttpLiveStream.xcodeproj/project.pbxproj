@@ -20,6 +20,8 @@
 		C1D3FABE1377933000207B8F /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D3FABC1377933000207B8F /* LoginController.xib */; };
 		C1D3FAD51377B3A200207B8F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D3FAD31377B3A200207B8F /* RegisterViewController.m */; };
 		C1D3FAD61377B3A200207B8F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D3FAD41377B3A200207B8F /* RegisterViewController.xib */; };
+		C1D3FADC1377C81B00207B8F /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D3FADB1377C81B00207B8F /* libicucore.A.dylib */; };
+		C1D3FADF1377DB4800207B8F /* registericon.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D3FADE1377DB4800207B8F /* registericon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		C1D3FAD21377B3A100207B8F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		C1D3FAD31377B3A200207B8F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		C1D3FAD41377B3A200207B8F /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		C1D3FADB1377C81B00207B8F /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = SDKs/MacOSX10.6.sdk/usr/lib/libicucore.A.dylib; sourceTree = DEVELOPER_DIR; };
+		C1D3FADE1377DB4800207B8F /* registericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registericon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 				1822D78213766E070017F694 /* UIKit.framework in Frameworks */,
 				1822D78413766E070017F694 /* Foundation.framework in Frameworks */,
 				1822D78613766E070017F694 /* CoreGraphics.framework in Frameworks */,
+				C1D3FADC1377C81B00207B8F /* libicucore.A.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		1822D78013766E070017F694 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1D3FADB1377C81B00207B8F /* libicucore.A.dylib */,
 				1822D78113766E070017F694 /* UIKit.framework */,
 				1822D78313766E070017F694 /* Foundation.framework */,
 				1822D78513766E070017F694 /* CoreGraphics.framework */,
@@ -101,6 +107,7 @@
 				C1D3FABA1377933000207B8F /* LoginController.h */,
 				C1D3FABB1377933000207B8F /* LoginController.m */,
 				C1D3FABC1377933000207B8F /* LoginController.xib */,
+				C1D3FADE1377DB4800207B8F /* registericon.png */,
 				1822D78813766E070017F694 /* Supporting Files */,
 			);
 			path = HttpLiveStream;
@@ -169,6 +176,7 @@
 				1822D79B13766E070017F694 /* RootViewController.xib in Resources */,
 				C1D3FABE1377933000207B8F /* LoginController.xib in Resources */,
 				C1D3FAD61377B3A200207B8F /* RegisterViewController.xib in Resources */,
+				C1D3FADF1377DB4800207B8F /* registericon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +270,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HttpLiveStream/HttpLiveStream-Prefix.pch";
 				INFOPLIST_FILE = "HttpLiveStream/HttpLiveStream-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/usr/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +287,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HttpLiveStream/HttpLiveStream-Prefix.pch";
 				INFOPLIST_FILE = "HttpLiveStream/HttpLiveStream-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.6.sdk/usr/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
