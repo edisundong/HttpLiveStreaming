@@ -30,7 +30,9 @@
 }
 
 - (IBAction)userRegisterPressed{
-    
+    if (username.text == @"" && password.text ==@"" && confirmPassword.text == @"" && email.text == @"") {
+        //
+    }
     
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
