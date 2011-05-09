@@ -6,6 +6,7 @@
 //  Copyright 2011年 __MyCompanyName__. All rights reserved.
 // donghao commit
 // lufangying commit
+//eric commit
 
 #import <UIKit/UIKit.h>
 
