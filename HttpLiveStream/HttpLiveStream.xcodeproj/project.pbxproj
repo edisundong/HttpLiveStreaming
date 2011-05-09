@@ -16,6 +16,10 @@
 		1822D79513766E070017F694 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1822D79313766E070017F694 /* MainWindow.xib */; };
 		1822D79813766E070017F694 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822D79713766E070017F694 /* RootViewController.m */; };
 		1822D79B13766E070017F694 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1822D79913766E070017F694 /* RootViewController.xib */; };
+		C1D3FABD1377933000207B8F /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D3FABB1377933000207B8F /* LoginController.m */; };
+		C1D3FABE1377933000207B8F /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D3FABC1377933000207B8F /* LoginController.xib */; };
+		C1D3FAD51377B3A200207B8F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D3FAD31377B3A200207B8F /* RegisterViewController.m */; };
+		C1D3FAD61377B3A200207B8F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D3FAD41377B3A200207B8F /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,12 @@
 		1822D79613766E070017F694 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1822D79713766E070017F694 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		1822D79A13766E070017F694 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		C1D3FABA1377933000207B8F /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		C1D3FABB1377933000207B8F /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		C1D3FABC1377933000207B8F /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		C1D3FAD21377B3A100207B8F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C1D3FAD31377B3A200207B8F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C1D3FAD41377B3A200207B8F /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,12 @@
 				1822D79613766E070017F694 /* RootViewController.h */,
 				1822D79713766E070017F694 /* RootViewController.m */,
 				1822D79913766E070017F694 /* RootViewController.xib */,
+				C1D3FAD21377B3A100207B8F /* RegisterViewController.h */,
+				C1D3FAD31377B3A200207B8F /* RegisterViewController.m */,
+				C1D3FAD41377B3A200207B8F /* RegisterViewController.xib */,
+				C1D3FABA1377933000207B8F /* LoginController.h */,
+				C1D3FABB1377933000207B8F /* LoginController.m */,
+				C1D3FABC1377933000207B8F /* LoginController.xib */,
 				1822D78813766E070017F694 /* Supporting Files */,
 			);
 			path = HttpLiveStream;
@@ -151,6 +167,8 @@
 				1822D78C13766E070017F694 /* InfoPlist.strings in Resources */,
 				1822D79513766E070017F694 /* MainWindow.xib in Resources */,
 				1822D79B13766E070017F694 /* RootViewController.xib in Resources */,
+				C1D3FABE1377933000207B8F /* LoginController.xib in Resources */,
+				C1D3FAD61377B3A200207B8F /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +182,8 @@
 				1822D78F13766E070017F694 /* main.m in Sources */,
 				1822D79213766E070017F694 /* HttpLiveStreamAppDelegate.m in Sources */,
 				1822D79813766E070017F694 /* RootViewController.m in Sources */,
+				C1D3FABD1377933000207B8F /* LoginController.m in Sources */,
+				C1D3FAD51377B3A200207B8F /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +296,7 @@
 				1822D7A013766E070017F694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
