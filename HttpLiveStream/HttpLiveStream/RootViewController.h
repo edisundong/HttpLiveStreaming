@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UITableViewController {
+    IBOutlet UITextField *txtTemp;
 
 }
+
 
 
 @end
