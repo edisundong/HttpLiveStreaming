@@ -30,8 +30,9 @@
 }
 
 - (IBAction)userRegisterPressed{
-    if (username.text == @"" && password.text ==@"" && confirmPassword.text == @"" && email.text == @"") {
-        //
+    if (username.text.length ==0 && password.text.length ==0 && confirmPassword.text.length == 0 && email.text.length ==0) {
+        //username validation 
+       // UIAlertView
     }
     
 }
