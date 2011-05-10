@@ -46,7 +46,7 @@
         msg = [[NSString alloc]initWithFormat:@"Please input E-mail address!"];
     else
     {
-        
+        //sender to server
     }
     
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Prompt" message:msg delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles: nil];
